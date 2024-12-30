@@ -77,7 +77,7 @@ e.grid(row=2, column=0, pady=10, padx=10)
 
 Button(root, text="Send", font=FONT_BOLD, bg=BG_GRAY, command=send).grid(row=2, column=1, pady=10)
 
-# Bind Enter key to send messages
+# Bind Enter key to send messages key val
 root.bind("<Return>", on_enter_key)
 
 root.mainloop()
